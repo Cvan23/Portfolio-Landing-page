@@ -1,0 +1,22 @@
+.jumbotron {
+  background-image: linear-gradient(to right, #85afe6,
+  #abc8f0,#88acdb);
+}
+
+.site-footer {
+  background-image: linear-gradient(to right, #85afe6,
+  #abc8f0,#88acdb);
+  padding: 20px 0;
+    margin-top: 40px;
+}
+
+body {
+  background-image: url("/img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-header {
+  background-color: rgba(14, 2, 68, 0.603);
+}
+
