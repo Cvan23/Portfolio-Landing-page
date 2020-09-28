@@ -11,34 +11,58 @@
 
      <!-- Additional CSS must be placed after Bootstrap CSS -->
      <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+     <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css" />
+     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
      <link rel="stylesheet" href="css/portfolio.css" />
 
     <title>Chris Van Huffel Project Showcase</title>
 </head>
 
 <body>
-
-  <header>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-          <div class="row">
-              <div class="col ml-5">
-                  <h1>Christopher Van Huffel</h1>
-                  <h2>Web Design and Development</h2>
-              </div>
-          </div>
+  
+    <header>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container container-fluid">
+            <div class="row">
+                <div class="col ml-5 mb-5">
+                    <h1>Christopher Van Huffel</h1>
+                    <h2>Web Design and Development</h2>
+                    <a><i class="fas fa-cat fa-4x" style="color: #1A237E;"></i></a>
+                    <a class="ml-5"><i class="fas fa-file-code fa-4x" style="color: #1A237E;"></i></a>
+                </div>
+            </div>
+        </div>
       </div>
+  </header>
+
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand" href="#"> <img class="thumbnail" src="img/catcoffeelogo.jpg" height="50" width="50" /> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nucampNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="#react"><i class="fab fa-react fa-2x"></i> </i>React JS Project</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#bootstrap"><i class="fab fa-bootstrap fa-2x"></i> </i>Bootstrap Project</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#reactnat"><i class="fab fa-react fa-2x badge-dark"></i> </i>React Native Project</a></li>
+                <li class="nav-item active"><a class="nav-link" href="#resume"><i class="fas fa-file-alt fa-2x"></i> </i>Resume</a></li>
+            </ul>
+        </div>
     </div>
-</header>
+  </nav>
 
   <div class="col col-9 m-auto">
-    <div class="card">
+    <div class="card bg-transparent" id="react">
       <div class="card-header">
-        Quote
+        React JS Project
+
+        <img src="/img/react-logo3.png" width="" alt="">
+        
       </div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <p>A project I created with React JS, a website for a rescue cat cafe.</p>
           <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/O7quHwVdneg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
@@ -47,28 +71,46 @@
 
     <br>
 
-    <div class="card">
+    <div class="card bg-transparent" id="bootstrap">
       <div class="card-header">
-        Quote
+        Bootstrap 4 Project
       </div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <p>A website I created using Bootstrap 4, CSS 3 and jQuery</p>
           
       </div>
     </div>
 
     <br>
 
-    <div class="card">
+    <div class="card bg-transparent" id="reactnat">
       <div class="card-header">
-        Quote
+        React Native Project
       </div>
       <div class="card-body">
         <blockquote class="blockquote mb-0">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-          <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-        </blockquote>
+          <p>A mobile app that I created for a class project</p>
+      </div>
+    </div>
+  </div>
+
+  <br/>
+
+  <div class="accordion col col-9 m-auto" id="resume">
+    <div class="card bg-transparent">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h3>Click for Resume</h3>
+          </button>
+        </h2>
+      </div>
+  
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#resume">
+        <div class="card-body">
+          <img class="" src="/img/resume1.jpg" alt="resume" width="100%">
+        </div>
       </div>
     </div>
   </div>
@@ -81,8 +123,7 @@
             <div class="col-4 col-sm-2 offset-1">
                 
                 <ul class="list-unstyled">
-                    <li><a href="#"></a><i class="fa fa-home"></i></li>
-                    
+                    <li><a href="#"><i class="fab fa-fort-awesome fa-4x" style="color: #1A237E;"></i></a></li>
                 </ul>
             </div>
             <div class="col-6 col-sm-5 text-center">

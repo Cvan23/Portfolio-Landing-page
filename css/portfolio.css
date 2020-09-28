@@ -1,6 +1,7 @@
 .jumbotron {
-  background-image: linear-gradient(to right, #85afe6,
-  #abc8f0,#88acdb);
+  background-image: linear-gradient(to right, #E8EAF6,
+  #C5CAE9,#9FA8DA);
+  margin-bottom: 0;
 }
 
 .site-footer {
@@ -17,6 +18,36 @@ body {
 }
 
 .card-header {
-  background-color: rgba(14, 2, 68, 0.603);
+  background-color:#303f9fc5;
+  color: #E8EAF6;
+  font-size: xx-large;
+}
+
+.card-body {
+  background-color:#c5cae95b;
+  
+}
+
+.navbar {
+  background-color:#37474fb6;
+  
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h1, h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  color: #1A237E;
+}
+
+h3 {
+  color: #C5CAE9;
+}
+
+.thumbnail {
+  box-shadow: 4px 4px 4px #1A237E;
 }
 
