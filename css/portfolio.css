@@ -24,7 +24,7 @@ body {
 }
 
 .card-body {
-  background-color:#c5cae95b;
+  background-color: #1a227e63;
   
 }
 
@@ -45,6 +45,17 @@ h1, h2 {
 
 h3 {
   color: #C5CAE9;
+}
+
+h4, h5 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  color: #1A237E;
+}
+
+p {
+  color: #E8EAF6;
+  font-size: larger;
 }
 
 .thumbnail {
